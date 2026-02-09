@@ -89,9 +89,9 @@ st.divider()
 
 # ---------------- DATA LISTS ----------------
 # Custom ordered lists for the dropdowns
-days_list = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-months_list = ["January", "February", "March", "April", "May", "June",
-               "July", "August", "September", "October", "November", "December"]
+days_list = ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"]
+months_list = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+               "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"]
 years_list = list(range(2020, 2026)) # Creates [2020, 2021, 2022, 2023, 2024, 2025]
 
 # ---------------- MAIN UI ----------------
@@ -160,3 +160,4 @@ if submit:
         st.info("Check if the Day or Month names in your encoder match the custom lists provided.")
 
 st.markdown("---")
+
